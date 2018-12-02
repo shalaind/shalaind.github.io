@@ -1,6 +1,7 @@
 body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    /* overflow-x: hidden; */
+    background-color: black;
+    color: white;
 
 }
 
@@ -55,64 +56,15 @@ body {
 
 
 
-/* ------------- */
-/* Splash Screen */
-/* ------------- */
-
-
-.outlineButton {
-    color: white;
-    font-size: 20pt;
-    background-color: transparent;
-    border: solid white;
-    border-radius: 30px;
-    height: 60px;
-    width: 200px;
-    margin-top: 50px;
-}
-
-.outlineButton:focus {
-    outline: none;
-}
-
-.outlineButton:hover {
-    border: solid #ffffff;
-    color: white;
-    text-shadow: -1px 0px 5px #97979721, 0px 0px 30px rgb(253, 253, 253), 0px 0px 50px rgb(196, 196, 196);
-    box-shadow: -1px 0px 5px #97979721, 0px 0px 30px rgb(253, 253, 253), 0px 0px 50px rgb(196, 196, 196);
-}
-
-#contactButton:hover {
-    color: rgb(37, 37, 37);
-    border: solid rgb(255, 255, 255);
-
-    color: white;
-    text-shadow: -1px 0px 5px #97979721, 0px 0px 30px rgb(253, 253, 253), 0px 0px 50px rgb(196, 196, 196);
-    box-shadow: -1px 0px 5px #97979721, 0px 0px 30px rgb(253, 253, 253), 0px 0px 50px rgb(196, 196, 196);
-  
-}
-
-#myBtn {
-    font-size: 75pt;
-    color: white;
-}
-
-#myBtn:hover {
-    
-        color: white;
-        text-shadow: -1px 0px 5px #97979721, 0px 0px 30px rgb(253, 253, 253), 0px 0px 50px rgb(196, 196, 196);
-      
-}
-
-
 /* Home page */
 
 .hpSection {
     width: 100vw;
     height: 100vh;
+    display: flex;
     /* position: absolute; */
     z-index: 5;
-    /* padding: 50px; */
+    padding: 50px;
 
 }
 
@@ -145,6 +97,33 @@ body {
     background-color: black;
     border: none;
 }
+
+.sectionImage {
+    padding: 50px;
+    width: 50%;
+    /* border: solid white; */
+    display: flex;
+    justify-content: center;
+}
+
+#headshot {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+.sectcol {
+    flex: 50%;
+    padding: 50px;
+
+
+}
+
+.sectionText1 {
+    flex: 50%;
+}
+
+
 
 #feature2 {
     width: 550px;
@@ -186,7 +165,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    background-color: black;
 }
 
 .sectionEmail {
