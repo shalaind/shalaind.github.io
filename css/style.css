@@ -22,6 +22,23 @@ p {
     color: #2c2c2c;
 }
 
+button {
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #0413e7;
+    border: none;
+    color: white;
+}
+
 .homepage_h1 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 700;
@@ -206,6 +223,32 @@ input:focus {
     padding-top: 70px;
 }
 
+table {
+    display: flex;
+    justify-content: center;
+}
+
+
+table th {
+    font-size: 18pt;
+}
+
+table td {
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #0413e7;
+}
+
+hr {
+    height: 15px;
+    background-color: white;
+}
+
 
 /* Contact Form */
 
@@ -234,7 +277,7 @@ input:focus {
     transform: translate(-50%, 0);
   }
   form h1 {
-    color: #04befe;
+    color: #000000;
     font-weight: 100;
     letter-spacing: 0.01em;
     margin-left: 15px;
@@ -244,14 +287,14 @@ input:focus {
   form button {
     margin-top: 35px;
     /* background-color: white; */
-    border: 1px solid #04befe;
+    border: 1px solid;
     line-height: 0;
     font-size: 17px;
     display: inline-block;
     box-sizing: border-box;
     padding: 20px 15px;
     border-radius: 60px;
-    color: #04befe;
+    color: #000000;
     font-weight: 100;
     letter-spacing: 0.01em;
     position: relative;
@@ -259,7 +302,7 @@ input:focus {
   }
   form button:hover, form button:focus {
     color: white;
-    background-color: #04befe;
+    background-color: black;
   }
   form .question {
     position: relative;
@@ -273,8 +316,8 @@ input:focus {
   }
   form .question label {
     transform-origin: left center;
-    color: #0413e7;
-    font-weight: 100;
+    color: #ffffff;
+    font-weight: 200;
     letter-spacing: 0.01em;
     font-size: 17px;
     box-sizing: border-box;
@@ -288,7 +331,7 @@ input:focus {
   form .question input[type="text"] {
     appearance: none;
     background-color: none;
-    border: 1px solid #04befe;
+    border: 1px solid #000000;
     line-height: 0;
     font-size: 17px;
     width: 100%;
@@ -296,7 +339,7 @@ input:focus {
     box-sizing: border-box;
     padding: 10px 15px;
     border-radius: 60px;
-    color: #04befe;
+    color: #000000;
     font-weight: 100;
     letter-spacing: 0.01em;
     position: relative;
@@ -304,8 +347,8 @@ input:focus {
   }
   form .question input[type="text"]:focus {
     outline: none;
-    background: #04befe;
-    color: white;
+    background: #000000;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
   }
   form .question input[type="text"]:valid {
