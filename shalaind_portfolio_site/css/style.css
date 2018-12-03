@@ -1,0 +1,413 @@
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+
+h1 {
+    margin:0;
+}
+
+p {
+    margin:0;
+    color: #2c2c2c;
+}
+
+button {
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #0413e7;
+    border: none;
+    color: white;
+}
+
+.homepage_h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    font-size: 100pt;
+    color: white;
+    margin: 0;
+}
+
+.homepage_h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+    color: white;
+    margin: 0;
+
+}
+
+.homepage_p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    padding-top: 20px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+/* Home page */
+
+.hpSection {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* position: absolute; */
+    z-index: 5;
+    padding: 50px;
+
+}
+
+
+#hpCanvas {
+    top:0;
+    left:0; 
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+}
+
+#blueButton {
+    color: transparent;
+    background-color: transparent;
+    width: 500px;
+   
+}
+
+#hpFeature1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: black;
+    border: none;
+}
+
+.sectionImage {
+    padding: 50px;
+    width: 50%;
+    /* border: solid white; */
+    display: flex;
+    justify-content: center;
+}
+
+#headshot {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+.sectcol {
+    flex: 50%;
+    padding: 50px;
+
+
+}
+
+.sectionText1 {
+    flex: 50%;
+}
+
+
+
+#feature2 {
+    width: 550px;
+    padding-top: 60px;
+}
+
+#hpFeature2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+#hpFeature3 {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+
+.sectionText3 {
+    flex: 60%;
+    padding-left: 60px;
+}
+
+.sectionAnim3 {
+    flex: 40%;
+}
+
+
+#hpContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.sectionEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contactColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+
+}
+
+
+input {
+    width: 700px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+#messageBox {
+    height: 200px;
+
+}
+
+#myBtn {
+    padding-top: 70px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+
+table th {
+    font-size: 18pt;
+}
+
+table td {
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #0413e7;
+}
+
+hr {
+    height: 15px;
+    background-color: white;
+}
+
+
+/* Contact Form */
+
+.transition, form button, form .question label, form .question input[type="text"] {
+    -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  }
+  
+  
+  form {
+    position: relative;
+    display: inline-block;
+    max-width: 1000px;
+    min-width: 800px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    /* background-color: white; */
+    border-radius: 40px;
+    margin: 40px 0;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  form h1 {
+    color: #000000;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  form button {
+    margin-top: 35px;
+    /* background-color: white; */
+    border: 1px solid;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 60px;
+    color: #000000;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+  }
+  form button:hover, form button:focus {
+    color: white;
+    background-color: black;
+  }
+  form .question {
+    position: relative;
+    padding: 20px 0;
+  }
+  form .question:first-of-type {
+    padding-top: 0;
+  }
+  form .question:last-of-type {
+    padding-bottom: 0;
+  }
+  form .question label {
+    transform-origin: left center;
+    color: #ffffff;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  form .question input[type="text"] {
+    appearance: none;
+    background-color: none;
+    border: 1px solid #000000;
+    line-height: 0;
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: #000000;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+  }
+  form .question input[type="text"]:focus {
+    outline: none;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+  }
+  form .question input[type="text"]:valid {
+    margin-top: 30px;
+  }
+  form .question input[type="text"]:focus ~ label {
+    -moz-transform: translate(0, -35px);
+    -ms-transform: translate(0, -35px);
+    -webkit-transform: translate(0, -35px);
+    transform: translate(0, -35px);
+  }
+  form .question input[type="text"]:valid ~ label {
+    text-transform: uppercase;
+    font-style: italic;
+    -moz-transform: translate(5px, -35px) scale(0.6);
+    -ms-transform: translate(5px, -35px) scale(0.6);
+    -webkit-transform: translate(5px, -35px) scale(0.6);
+    transform: translate(5px, -35px) scale(0.6);
+  }
+  
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+    height: auto;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
